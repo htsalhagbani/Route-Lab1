@@ -1,10 +1,9 @@
 import React from 'react'
-import Nav from '../component/nav'
-
+import Nav2 from '../component/Nav2'
 function Home() {
   return (
    <>
-   <Nav/>
+   <Nav2/>
       <div className="flex flex-col items-center justify-center min-h-screen bg-gray-100 p-4">
       <div className="bg-white rounded-lg shadow-lg p-8 w-full max-w-3xl">
         <h1 className="text-4xl font-bold text-center text-blue-600 mb-4">Towiq Bootcamp</h1>

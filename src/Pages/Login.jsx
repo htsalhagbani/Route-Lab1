@@ -1,11 +1,11 @@
 import React from 'react'
-import Nav from '../component/nav'
 import { Link } from "react-router-dom";
+import Nav2 from '../component/Nav2';
 
 function Login() {
   return (
     <>
-    <Nav/>
+    <Nav2/>
     <div className="flex items-center justify-center min-h-screen bg-gray-100">
     <div className="bg-[#C084FC] rounded-lg shadow-lg w-full max-w-lg p-8 space-y-6 md:h-[50vh] ">
       <form className="space-y-4 md:space-y-6">
